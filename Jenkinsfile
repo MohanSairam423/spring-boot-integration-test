@@ -16,7 +16,7 @@ pipeline {
          stage('Integration Tests') {
             steps {
                 snDevOpsStep "31e392a3c7d333008c2c02b827c26099"
-                sh 'mvn failsafe:integration-test'
+                sh 'mvn integration-test'
             }
         }
         stage('Publishing Tests') {
