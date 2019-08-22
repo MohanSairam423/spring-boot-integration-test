@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Unit Tests') {
             steps {
-               // snDevOpsStep "b9e392a3c7d333008c2c02b827c26099"
+               snDevOpsStep "b9e392a3c7d333008c2c02b827c26099"
                 //sh 'mvn surefire:test'
             }
         }
